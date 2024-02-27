@@ -1,0 +1,82 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #E9E0D8;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10%;
+    background-color: #fff6ee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, p {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.quote {
+    font-style: italic;
+}
+
+#start, #body-text {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#end {
+    text-align: right;
+    margin: 50px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #324259; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span::before {
+    color: #324259;
+    content: "a phrase";
+    animation: animate infinite 10s;
+}
+
+@keyframes animate {
+    10% {
+        content: "a phrase";
+    }
+    20% {
+        content: "a line";
+    }
+    30% {
+        content: "a scrap of language";
+    }
+    40% {
+        content: "a rhythm";
+    }
+    50% {
+        content: "an image";
+    }
+    60% {
+        content: "something seen";
+    }
+    70% {
+        content: "something heard";
+    }
+    80% {
+        content: "something witnessed";
+    }
+    90% {
+        content: "something witnessed";
+    }
+}
+
+
+

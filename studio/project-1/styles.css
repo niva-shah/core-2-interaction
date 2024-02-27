@@ -1,43 +1,28 @@
-body {
-    font-family: 'Courier New', monospace;
-    margin: 0;
-    padding: 0;
-    background-image: url('old_paper_texture.jpg'); /* need to Replace with the path to old paper texture image */
-    background-repeat: repeat;
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #E9E0D8;
+  color: #324259;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.wrapper {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
 
-h1, p {
-    text-align: justify;
-    margin: 10px 0;
-}
-
-.quote {
-    font-style: italic;
-}
-
-#start, #body-text {
+.container {
     text-align: center;
-    margin: 50px 0;
+    font-size: 24px; 
+  }
+  
+.fade-out {
+  opacity: 1;
+  transition: opacity 0.5s ease; 
 }
 
-#end {
-    text-align: right;
-    margin: 50px 0;
-}
-
-a {
-    text-decoration: none;
-    color: #000; 
-}
-
-a:hover {
-    text-decoration: underline;
+.fade-out.hidden {
+  opacity: 0;
 }

@@ -1,0 +1,72 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #E9E0D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #324259; 
+    
+}
+
+.typewriter {
+    font-size: 2em;
+    text-align: center;
+    color: #324259; 
+}
+/* Remove underline by default */
+.typewriter a {
+    text-decoration: none;
+}
+
+/* Add underline on hover */
+.typewriter a:hover {
+    text-decoration: underline;
+}
+/*.blinking-cursor {
+    animation: blink 1s infinite;
+}
+
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+span::before{
+  animation: blink infinite 1s}
+
+@keyframes blink {
+    10% {
+        content: "|"
+    }
+    50% {
+        content: "d"
+    }
+} */
+
+.blinking-cursor::before {
+    content: "|";
+    animation: blink 1s infinite steps(2);
+}
+
+@keyframes blink {
+    /*10% {
+        content: "";
+    }*/
+    10% {
+        content: "|";
+    }
+    30% {
+        content: "|";
+    }
+    50% {
+        content: "d";
+    }
+}

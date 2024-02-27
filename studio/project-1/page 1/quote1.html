@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Circular Text</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <a href="../main.html" id="svg-link">
+            <div id="circle">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+                    <defs>
+                        <!-- Fifth Largest Circle Path -->
+                        <path id="fifthLargestCirclePath" d="M 150, 150 m -145, 0 a 145,145 0 0,1 290,0 a 145,145 0 0,1 -290,0 "/>
+                        <!-- Fourth Largest Circle Path -->
+                        <path id="fourthLargestCirclePath" d="M 150, 150 m -125, 0 a 125,125 0 0,1 250,0 a 125,125 0 0,1 -250,0 "/>
+                        <!-- Third Largest Circle Path -->
+                        <path id="thirdLargestCirclePath" d="M 150, 150 m -105, 0 a 105,105 0 0,1 210,0 a 105,105 0 0,1 -210,0 "/>
+                        <!-- Second Largest Circle Path -->
+                        <path id="secondLargestCirclePath" d="M 150, 150 m -85, 0 a 85,85 0 0,1 170,0 a 85,85 0 0,1 -170,0 "/>
+                        <!-- Largest Circle Path -->
+                        <path id="largestCirclePath" d="M 150, 150 m -65, 0 a 65,65 0 0,1 130,0 a 65,65 0 0,1 -130,0 "/>
+                    </defs>
+                    <!-- Fifth Largest Circle -->
+                    <circle cx="150" cy="150" r="145" fill="none"/> <!-- Fifth largest circle -->
+                    <!-- Text on Fifth Largest Circle -->
+                    <g>
+                        <use xlink:href="#fifthLargestCirclePath" fill="none"/>
+                        <text fill="#1A3356" font-size="20"> <!-- Adjust font size as needed -->
+                            <textPath xlink:href="#fifthLargestCirclePath">In poetry, the number of <a xlink:href="../page 6/quote6.html">beginnings</a> so far exceeds the number of endings that we cannot even conceive of it.</textPath>
+                        </text>
+                    </g>
+                    <!-- Fourth Largest Circle -->
+                    <circle cx="150" cy="150" r="125" fill="none"/> <!-- Fourth largest circle -->
+                    <!-- Text on Fourth Largest Circle -->
+                    <g>
+                        <use xlink:href="#fourthLargestCirclePath" fill="none"/>
+                        <text fill="#1A3356" font-size="18"> <!-- Adjust font size as needed -->
+                            <textPath xlink:href="#fourthLargestCirclePath">Not every <a xlink:href="../page 4/quote4.html">poem</a> is finished—one poem is <a xlink:href="../page 7/quote7.html">abandoned</a>, another catches fire and is carried away by the wind,</textPath>
+                        </text>
+                    </g>
+                    <!-- Third Largest Circle -->
+                    <circle cx="150" cy="150" r="105" fill="none"/> <!-- Third largest circle -->
+                    <!-- Text on Third Largest Circle -->
+                    <g>
+                        <use xlink:href="#thirdLargestCirclePath" fill="none"/>
+                        <text fill="#1A3356" font-size="16"> <!-- Adjust font size as needed -->
+                            <textPath xlink:href="#thirdLargestCirclePath">which may be an ending, but it is the ending of a <a xlink:href="../page 3/quote3.html">poem</a> without an <a xlink:href="../project-1/main.html">end</a>.</textPath>
+                        </text>
+                    </g>
+                    <!-- Second Largest Circle -->
+                    <circle cx="150" cy="150" r="85" fill="none"/> <!-- Second largest circle -->
+                    <!-- Text on Second Largest Circle -->
+                    <g>
+                        <use xlink:href="#secondLargestCirclePath" fill="none"/>
+                        <text fill="#1A3356" font-size="14"> <!-- Adjust font size as needed -->
+                            <textPath xlink:href="#secondLargestCirclePath">In life,the <a xlink:href="../page 2/quote2.html">#</a> of beginnings is <a xlink:href="../page 5/quote5.html">exactly</a> equal to the # of endings:</textPath>
+                        </text>
+                    </g>
+                    <!-- Largest Circle -->
+                    <circle cx="150" cy="150" r="65" fill="none"/> <!-- Largest circle -->
+                    <!-- Text on Largest Circle -->
+                    <g>
+                        <use xlink:href="#largestCirclePath" fill="none"/>
+                        <text fill="#1A3356" font-size="12"> <!-- Adjust font size as needed -->
+                            <textPath xlink:href="#largestCirclePath">no one has yet to <a xlink:href="../page 8/quote8.html">begin</a> a life who will not end it</textPath>
+                        </text>
+                    </g>
+                </svg>
+            </div>
+        </a>
+    </div>
+</body>
+</html>

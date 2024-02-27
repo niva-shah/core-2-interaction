@@ -1,0 +1,74 @@
+/* Header styles */
+body{
+  background-color: #E9E0D8;
+}
+.header {
+  text-align: center;
+  background-color: #E9E0D8; /* Background color */
+  padding: 20px 0; /* Add some padding for spacing */
+  color: #324259; /* Text color */
+  font-family: 'Courier New', Courier, monospace;
+}
+/* Styles for the modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #e9e0d8;
+}
+
+.modal-content {
+  background-color: #E9E0D8;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  color: #324259; /* Text color */
+}
+
+.close {
+  color: #E9E0D8;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Styles for the poem container */
+.poem {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Styles for the ending text */
+#ending {
+  color: #324259; /* Text color */
+  background-color: #E9E0D8; /* Background color */
+  padding: 10px; /* Add some padding for readability */
+  text-align: left; /* Right-align the text */
+  word-wrap: break-word; /* Ensure that long words wrap within the container */
+  display: inline-block; /* Allow the pre element to respect word-wrap */
+  margin-top: 10%;
+}
+
+a {
+  text-decoration: none;
+  color: #324259; 
+}
+
+a:hover {
+  text-decoration: underline;
+}
