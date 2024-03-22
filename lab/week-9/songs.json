@@ -1,0 +1,53 @@
+{
+  "songs": [
+    {
+      "title": "Tel Aviv",
+      "artist": "Danny Ocean",
+      "album": "54+1",
+      "year": 2019,
+      "genre": "Pop"
+    },
+    {
+      "title": "Ten",
+      "artist": " Fred Again, Jim Legxacy, Jo'zzy",
+      "album": "Ten",
+      "year": 2023,
+      "genre": "Dance/Electronic"
+    },
+    {
+      "title": "Latch",
+      "artist": "Disclosure, Sam Smith",
+      "album": "Settle",
+      "year": 2012,
+      "genre": " Alternative/Indie, Dance/Electronic"
+    },
+    {
+      "title": "Rush",
+      "artist": "Ayra Starr",
+      "album": "19 & Dangerous",
+      "year": 2021,
+      "genre": ""
+    },
+    {
+      "title": "Rolling in the Deep",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2011,
+      "genre": "R&B"
+    },
+    {
+      "title": "Sprinter",
+      "artist": " Central Cee, Dave",
+      "album": "Jahresrückblick 2023",
+      "year": 2023,
+      "genre": "Pop"
+    },
+    {
+      "title": "Yellow ",
+      "artist": "Coldplay",
+      "album": "Parachutes",
+      "year": 2000,
+      "genre": "Alternative/Indie"
+    }
+  ]
+}
