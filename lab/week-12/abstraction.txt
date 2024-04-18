@@ -1,0 +1,5 @@
+Coding the weather API was a challenging process. While working on this in class, I faced a lot of difficulties. This time, when I revisited the project, I began by basing my code on the sample codes from the lecture website.
+
+To display the resulting data from the API query on the webpage, I divided the layout into two sections. The left half of the page is dedicated to presenting the text data, and the right half is used for the visual representation of the data. To achieve this, I created two separate <div> containers.
+
+For the abstraction of the code, I followed the structure outlined in the sample examples provided during the lectures. This approach helped streamline the development process and integrate the functionalities effectively.

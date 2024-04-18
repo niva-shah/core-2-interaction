@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
   fetch('https://api.weather.gov/gridpoints/TOP/31,80/forecast')
       .then(response => response.json())
       .then(data => {
@@ -17,4 +16,4 @@ document.addEventListener('DOMContentLoaded', function() {
           document.getElementById('chartDisplay').innerHTML = chartHtml;
       })
       .catch(error => console.error('Error fetching data:', error));
-});
+      
