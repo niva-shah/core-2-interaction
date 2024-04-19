@@ -7,7 +7,7 @@
 
           forecasts.forEach((forecast, index) => {
               htmlContent += `<div><h3>${forecast.name}</h3><p>${forecast.detailedForecast}</p></div>`;
-              const barHeight = forecast.temperature / 100 * 100; // Simplified scale for demonstration
+              const barHeight = forecast.temperature / 100 * 100; 
               chartHtml += `<div style="width: ${barHeight}%; height: 20px; background-color: #6495ED; margin: 2px;">${forecast.temperature}°</div>`;
           });
 
@@ -16,4 +16,4 @@
           document.getElementById('chartDisplay').innerHTML = chartHtml;
       })
       .catch(error => console.error('Error fetching data:', error));
-      
+
