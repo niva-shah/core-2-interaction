@@ -8,6 +8,13 @@
     <div id="content">
         <div id="dataDisplay" class="half-page"></div>
         <div id="chartDisplay" class="half-page"></div>
+            
+        <p>Coding the weather API was a challenging process. While working on this in class, I faced a lot of difficulties. This time, when I revisited the project, I began by basing my code on the sample codes from the lecture website.</p>
+        <p>To display the resulting data from the API query on the webpage, I divided the layout into two sections. The left half of the page is dedicated to presenting the text data, and the right half is used for the visual representation of the data. To achieve this, I created two separate < div > containers.</p>
+        <p>For the abstraction of the code, I followed the structure outlined in the sample examples provided during the lectures. This approach helped streamline the development process and integrate the functionalities effectively.</p>
+        <p>For the assignment, I chose a specific API endpoint from the National Weather Service that would provide a detailed forecast for a location. I used fetch to get the weather forecast for the specified gridpoint. Then the JSON response was processed to extract the forecast data. This process is similar to how user data was processed in the first sample. I looped through each forecast period, dynamically creating HTML elements to display the forecast details.</p>
+        <p>For visual representation, I adapted the method from the second sample code. Instead of bike station capacities, I displayed temperature values as horizontal bars, calculated proportional to their values to fit within the visual container. I split the webpage into two parts (left for data display and right for graphical display), using CSS from the .half-page class to ensure both sections were visually distinct and equally divided.</p>
+</div>
     </div>
     <script src="script.js"></script>
 </body>
