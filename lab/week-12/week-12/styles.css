@@ -1,0 +1,9 @@
+.half-page {
+    float: left;
+    width: 50%;
+    height: 100vh;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
