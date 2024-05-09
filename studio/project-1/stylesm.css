@@ -2,9 +2,26 @@ body {
     font-family: 'Courier New', monospace;
     margin: 0;
     padding: 0;
-    background-color: #E9E0D8;
+    background-color: #fff6ee;
+}
+.quote-navigation {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff6ee;
 }
 
+.quote-navigation a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    color: #324259;
+    text-decoration: none;
+   
+}
+
+.quote-navigation a:hover {
+    background-color: #ddd;
+}
 .wrapper {
     max-width: 800px;
     margin: 0 auto;
@@ -74,7 +91,7 @@ span::before {
         content: "something witnessed";
     }
     90% {
-        content: "something witnessed";
+        content: "something imagined";
     }
 }
 
