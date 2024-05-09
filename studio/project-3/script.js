@@ -887,3 +887,22 @@ function submitReview() {
 }
 
 
+let currentRating = 0;
+
+function setRating(rating) {
+    currentRating = rating;
+    const stars = document.querySelectorAll('.star');
+    stars.forEach((star, index) => {
+        star.style.color = index < rating ? 'gold' : '#ccc';  // Conditional (ternary) operator
+    });
+}
+
+function submitReview() {
+    const reviewText = document.getElementById('review-text').value;
+    const reviewsList = document.querySelector('.reviews-list');
+    const newReview = document.createElement('p');
+    newReview.textContent = `${currentRating} stars - ` + reviewText;
+    reviewsList.appendChild(newReview);
+    document.getElementById('review-text').value = '';
+    setRating(0); // Reset the stars
+}

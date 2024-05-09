@@ -164,7 +164,7 @@ h1 {
     max-height: 90%; /* Ensures the image is not taller than its container */
     height: auto;     /* Keeps the image's aspect ratio intact */
     display: block;   /* Removes bottom margin/gap */
-    filter: grayscale(100%);
+    /*filter: grayscale(100%);*/
 }
 
 #middle_text img::after {
@@ -178,3 +178,19 @@ h1 {
     opacity: 0.5;  /* Adjust opacity for desired grain intensity */
     z-index: 1;    /* Ensures the grain is above the image */
 }
+.star-rating {
+    direction: rtl;
+    font-size: 24px;
+}
+.star {
+    cursor: pointer;
+    color: #ccc; /* Default color for empty stars */
+    display: inline-block;
+}
+.star:hover,
+.star:hover ~ .star,
+.star.active,
+.star.active ~ .star {
+    color: gold; /* Color when star or previous stars are hovered or active */
+}
+
