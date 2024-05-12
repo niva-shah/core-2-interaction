@@ -50,7 +50,7 @@ window.onload = function() {
 
 
 //notes for myself 
-//add fumction on consol 4+6 works... works by just typing the numbers in the consol 
+//add fumction on consol works
 //makeItGreen works on consol with makeItGreen()
 //object in consol when page loads with all information
 //forcast printed on the circle when the page loads and resizes with the circle 
